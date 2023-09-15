@@ -369,10 +369,6 @@ nav .fas {
     height: 65vh;
     background-image: url(images/phone-background.jpeg);
   }
-  .header-text {
-    margin-top: 5%;
-    font-size: 30px;
-  }
   #img-1 {
     width: 200px;
     height: 250px;
@@ -401,7 +397,7 @@ nav .fas {
     font-size: 16px;
   }
   .header-text {
-    margin-top: 50%;
+    margin-top: 30%;
     font-size: 16px;
   }
   #icons {
