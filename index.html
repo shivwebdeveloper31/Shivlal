@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivlal Gupta - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Certificate</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" style="color: black;" onclick="openmenu()"></i>
+            <!-- <div id="icons"><i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div> -->
+        </nav>
+        <div class="container">
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Shivlal Gupta</span><br> From Mumbai</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------about--------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="img-1" src="images/Photo.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 id="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Quae cumque sunt praesentium, ab iure explicabo error architecto libero alias veniam at
+                        reiciendis laudantium ipsam eum dicta illum debitis voluptatum consequatur!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Advanced Level</span><br>
+                                HTML <br>
+                                CSS <br>
+                                Javascript <br>
+                                React Js <br>
+                                Redux <br>
+                                Material UI <br>
+                                Bootstrap <br>
+                                Wordpress <br>
+                                Git, GitHub, GitLab and Jira <br>
+
+                            <li><span>Intermediate Level</span><br>
+                                Node Js <br>
+                                MongoDB Atlas <br>
+                                Redis <br>
+                                Docker
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Science in Information Technology</span><br>
+                                Mumbai University <br>
+                                Passing Year - 2022 <br>
+                                Grade - A <br>
+
+                            <li><span>Class 12th</span><br>
+                                Maharashtra State Board<br>
+                                Passing Year - 2019<br>
+                                Grade - B<br>
+
+                            <li><span>Class 10th</span><br>
+                                Maharashtra State Board<br>
+                                Passing Year - 2017<br>
+                                Grade - A<br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Nimap Infotech LLP</span><br>
+                                Role :- Associate Software Developer (Full-Time)<br>
+                                Working Duration :- Present<br>
+                                Job Location :- Mumbai (Lower Parel)
+
+                            <li><span>UD IT Solutions</span><br>
+                                Role :- React Developer (Intenship) <br>
+                                Working Duration :- Apr 2022 - Apr 2022 <br>
+                                Company Location :- Mumbai (Borivali)
+
+                            <li><span>SoftSeekers Infotech Pvt Ltd</span><br>
+                                Role :- React Developer (Intenship) <br>
+                                Working Duration :- Dec 2021 - Jan 2022 <br>
+                                Company Location :- Madhya Pradesh
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------SERVICES---------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Frontend Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perspiciatis eos iste facere?
+                        Quasi unde molestias sequi dolor ea aliquid id, libero fugit earum quam, quidem illum rerum
+                        alias excepturi?</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Backend Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perspiciatis eos iste facere?
+                        Quasi unde molestias sequi dolor ea aliquid id, libero fugit earum quam, quidem illum rerum
+                        alias excepturi?</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-wordpress-simple"></i>
+                    <h2>Wordpress Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perspiciatis eos iste facere?
+                        Quasi unde molestias sequi dolor ea aliquid id, libero fugit earum quam, quidem illum rerum
+                        alias excepturi?</p>
+                    <a href="#">Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------- My Work ------------------------------------ -->
+
+    <div id="project">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint labore similique veritatis?
+                            Labore quas eos libero error nisi, iure accusamus, dicta dolor ipsam odio ipsum tenetur
+                            dignissimos debitis soluta ullam.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint labore similique veritatis?
+                            Labore quas eos libero error nisi, iure accusamus, dicta dolor ipsam odio ipsum tenetur
+                            dignissimos debitis soluta ullam.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint labore similique veritatis?
+                            Labore quas eos libero error nisi, iure accusamus, dicta dolor ipsam odio ipsum tenetur
+                            dignissimos debitis soluta ullam.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="">See More</a>
+        </div>
+
+    </div>
+
+    <!-- ------------------------ Contact -------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <i class="fa-regular fa-envelope-open"></i> shivlalgupta31@gmail.com <br>
+                    <i class="fa-brands fa-whatsapp"></i> 8390016317
+                    <br><br>
+                    <div id="social-icon">
+                        <i style="color: #7b7bf1;" class="fa-brands fa-facebook"></i> &nbsp;
+                        <i style="color: palevioletred;" class="fa-brands fa-instagram"></i> &nbsp;
+                        <i style="color:  blueviolet;" class="fa-brands fa-linkedin"></i> &nbsp;
+                        <i class="fa-brands fa-github"></i> &nbsp;
+                        <i style="color: red;" class="fa-brands fa-youtube"></i> &nbsp;
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="full-name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" rows="6" placeholder="Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+<div id="copyright">
+    <p>Copyright @ 2023 || Made by Shivlal Gupta</p>
+</div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = '0';
+        }
+
+        function closemenu(){
+            sidemeu.style.right = '-200px'
+        }
+    </script>
+
+</body>
+
+
+
+</html>
